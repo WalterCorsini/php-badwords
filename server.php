@@ -37,10 +37,11 @@ $count = 0;
         <section>
             <h2> dal paragrafo abbiamo nascosto la parola</h2>
             <?php
-            // $bad_word = strtolower("$bad_word");
+            $bad_word = strtolower("$bad_word");
             //  str_replace per sostituire una parola inclusa in un testo
             //  str_ireplace non è key sensitive e quindi non c'è bisogno di trasformare tutto in minuscolo per cercare la corrispondenza
-            $long_text = str_ireplace("$bad_word", "***", $long_text);
+            // $long_text = str_ireplace("$bad_word", "***", $long_text);
+            $long_text = preg_replace("/\b{$bad_word}\b/", "***", $long_text);
             echo "$long_text";
             ?>
         </section>
