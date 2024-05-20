@@ -12,8 +12,6 @@
         <label for="bad-word"> inserisci la parola da nascondere</label>
         <input type="text" name=bad-word>
         <button type="submit"> invia </button>
-
-
     </form>
 </body>
 </html>
