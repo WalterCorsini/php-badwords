@@ -77,6 +77,6 @@ form{
         width: calc(100% / 3);
         border: 3px solid red;
         padding: 10px;
-        border-radius: 20px
+        border-radius: 20px;
     };
 }
