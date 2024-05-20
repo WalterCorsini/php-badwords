@@ -9,7 +9,7 @@
     <form action="server.php" method="GET">
         <label for="text"> inserisci paragrafo</label>
         <input type="textarea" name=text>
-        <label for="bad-word"> inserisci paragrafo</label>
+        <label for="bad-word"> inserisci la parola da nascondere</label>
         <input type="text" name=bad-word>
         <button type="submit"> invia </button>
 

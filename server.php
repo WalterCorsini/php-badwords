@@ -21,7 +21,7 @@
     ?>
     <span>caratteri</span>
 
-    <h2 v-if=""> dal paragrafo abbiamo eliminato la parola</h2>
+    <h2 v-if=""> dal paragrafo abbiamo nascosto la parola</h2>
     <?php
         $bad_word = strtolower("$bad_word");
         $long_text = str_replace("$bad_word" , "***", $long_text);
